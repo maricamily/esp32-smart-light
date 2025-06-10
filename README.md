@@ -1,7 +1,6 @@
-# esp32-smart-light
-```mermaid
 flowchart LR
-    A[Dispositivo do Usuário] -->|Wi-Fi| B[Roteador Wi-Fi]
+    A[Usuário (Celular/PC)] -->|Wi-Fi| B[Roteador]
     B -->|Wi-Fi| C[ESP32]
-    C -->|Servidor Web| D[Relé]
-    D --> E[Lâmpada]
+    C --> D[Protoboard]
+    D --> E1[LED Verde (GPIO2)]
+    D --> E2[LED Vermelho (GPIO4)]
