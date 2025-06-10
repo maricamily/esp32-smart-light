@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
     A[Usuário (Celular/PC)] -->|Wi-Fi| B[Roteador]
     B -->|Wi-Fi| C[ESP32]
