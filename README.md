@@ -1,6 +1,6 @@
 ```mermaid
 flowchart LR
-    A[Usuário (Celular/PC)] -->|Wi-Fi| B[Roteador]
+    A[Usuario (Celular/PC)] -->|Wi-Fi| B[Roteador]
     B -->|Wi-Fi| C[ESP32]
     C --> D[Protoboard]
     D --> E1[LED Verde (GPIO2)]
